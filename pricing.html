@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing page</title>
+    <link rel="stylesheet" href="pricingStyle.css"></link>
+</head>
+<body>
+    <nav class="navbar">
+        <img id="logo" src="images/Logo.jpg">
+        <div class="menu-toggle">&#9776;</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about us.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="FAQ.html">FAQ</a>
+            <a href="contact us.html">Contact Us</a>
+        </div>
+    </nav>
+
+    <div id="price">
+        <div class="container">
+            <div class="row">
+                <div class="price-col-1">
+                    <h3>Packages and <span>Pricing</span></h3>
+
+                    <div id="combine">
+                        <div class="box">
+                            <button id="btn1">Silver</button>
+                            <h4>Price</h4>
+                        </div>
+                        <div id="box2">
+                            <button id="btn">Gold</button>
+                            <h4>Price</h4>
+                        </div>
+                        <div class="box">
+                            <button id="btn2">Diamond</button>
+                            <h4>Price</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p id="p1">&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+    
+        menuToggle.addEventListener('click', function() {
+            navLinks.classList.toggle('show');
+        });
+    });
+</script>
+</body>
+</html>
