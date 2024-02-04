@@ -7,7 +7,7 @@
 
 body{
     background:url('images/bg2.png');
-    background-size: cover;
+    background-sizea: cover;
 }
 
 /* *******************Navbar******************* */
@@ -336,17 +336,18 @@ and (max-device-width : 1280px){
     }
 }
 
+
 @media only screen   
 and (min-device-width : 1280px)   
-and (max-device-width : 1380px){
+and (max-device-width : 1440px){
     .row{
         display: flex;
-        height: 650px;
+        height:700px;
     }
     .box{
         width:320px;
         height:450px;
-        margin:55px ;
+        margin:44px ;
         /* margin-top: 20px;
         margin-right: 10px; */
     }
@@ -372,9 +373,5 @@ and (max-device-width : 1380px){
     h3{
         margin-top: 20px;
     }
-
 }
-
-
-
 

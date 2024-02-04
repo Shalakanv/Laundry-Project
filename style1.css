@@ -705,10 +705,10 @@ and (max-device-width : 1280px){
 
 @media only screen   
 and (min-device-width : 1280px)   
-and (max-device-width : 1380px){
+and (max-device-width : 1440px){
     .row{
         display: flex;
-        height:750px;
+        height:800px;
     }
     .main-col-1{
         flex-basis:50%;
@@ -730,12 +730,13 @@ and (max-device-width : 1380px){
     }
     #para1{
         padding-left: 23px;
-        /* text-align: center; */
-        margin-left: 10px;
-        /* margin-right: 50px; */
+        margin-left: 120px;
+         margin-right: 15px; 
+         font-size: 20px;
+
     }
     .button1{
-        margin-left: 500px;
+        margin-left: 480px;
     }
     #logo{
         width: 100px;
@@ -750,6 +751,7 @@ and (max-device-width : 1380px){
     h1{
         font-size: 60px;
         white-space: nowrap;
+        margin-right: 15px;
     }
     .heading2{
         text-align: center;
@@ -761,4 +763,6 @@ and (max-device-width : 1380px){
 
 }
 
+
+/* chatgpt */
 
