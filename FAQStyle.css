@@ -341,30 +341,3 @@ and (max-device-width : 1280px){
         margin-left:75px;
     }
 }
-
-@media only screen   
-and (min-device-width : 1280px)   
-and (max-device-width : 1440px){
-    .row{
-        display: flex;
-        height:680px;
-    }
-    .FAQ-col-1{
-        flex-basis: 50%;
-    }
-    .FAQ-col-2{
-        flex-basis: 50%;
-        margin: 35px;
-        height: 530px;
-    }
-    h3{
-        margin:20px;
-        margin-left: 90px;
-    }
-    #img1{
-        width:380px;
-        height:410px;
-        margin-left:75px;
-    }
-}
-
