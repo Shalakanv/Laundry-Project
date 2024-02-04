@@ -316,6 +316,7 @@ ul {
     .row {
         display: flex;
         flex-wrap: wrap;
+        height:600px;
     }
 
     .about-col-1,
