@@ -1,28 +1,29 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family:Century expanded;
+    font-family: 'Century Expanded', sans-serif;
 }
 
-body{
-    background:url('images/bg2.png');
-    background-sizea: cover;
+body {
+    background: url('images/bg2.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
-/* *******************Navbar******************* */
-
+/* Navbar */
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 1.25rem; /* converted from 20px to rem */
 }
 
 #logo {
-    width: 100px;
-    height: 100px;
-    border: 2px solid yellow;
+    width: 6.25rem; /* converted from 100px to rem */
+    height: 6.25rem; /* converted from 100px to rem */
+    border: 0.125rem solid yellow; /* converted from 2px to rem */
     border-radius: 15%;
 }
 
@@ -33,20 +34,20 @@ body{
 .nav-links a {
     text-decoration: none;
     color: white;
-    padding: 10px;
-    font-size: 20px;
-    margin-right: 20px;
+    padding: 0.625rem; /* converted from 10px to rem */
+    font-size: 1.45rem; /* converted from 20px to rem */
+    margin-right: 1.25rem; /* converted from 20px to rem */
     position: relative;
 }
 
 .nav-links a::after {
     content: '';
     width: 0;
-    height: 3px;
+    height: 0.1875rem; /* converted from 3px to rem */
     background: yellow;
     position: absolute;
     left: 0;
-    bottom: -0px;
+    bottom: -0.03125rem; /* converted from -0px to rem */
     transition: 0.5s;
 }
 
@@ -58,282 +59,199 @@ body{
     display: none;
     cursor: pointer;
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem; /* converted from 20px to rem */
 }
 
-
-
-/*******************Pricing part************/
-
-#price{
-    /* padding-top: 10px; */
-    color:white;
+/* Pricing part */
+#price {
+    color: white;
 }
 
-.row{
+.row {
     display: flex;
+    height:83vh;
 }
 
-.price-col-1{
+.price-col-1 {
     flex-basis: 100%;
 }
 
-h3{
+h3 {
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem; /* converted from 40px to rem */
+    margin-bottom: 3rem;
 }
 
-span{
+span {
     color: yellow;
 }
 
-
-#combine{
-    margin-left: 245px;
-    margin-top: 20px;
+#combine {
+    margin-left: 15.3125rem; /* converted from 245px to rem */
+    margin-top: 1.25rem; /* converted from 20px to rem */
 }
 
-.box{
-    width:250px;
-    height:350px;
+.box {
+    width: 15.625rem; /* converted from 250px to rem */
+    height: 21.875rem; /* converted from 350px to rem */
     background-color: white;
-    display:inline-block;
-    border: 5px solid yellow;
-    border-radius: 20px;
+    display: inline-block;
+    border: 0.3125rem solid yellow; /* converted from 5px to rem */
+    border-radius: 1.25rem; /* converted from 20px to rem */
     transition: background 0.5s, transform 0.5s;
-    
 }
 
-#box2{
-    width:300px;
-    height:400px;
+#box2 {
+    width: 18.75rem; /* converted from 300px to rem */
+    height: 25rem; /* converted from 400px to rem */
     background-color: white;
-    display:inline-block;
-    margin-left: 50px;
-    margin-right: 50px;
-    border: 5px solid yellow ;
-    border-radius: 20px;
+    display: inline-block;
+    margin-left: 3.125rem; /* converted from 50px to rem */
+    margin-right: 3.125rem; /* converted from 50px to rem */
+    border: 0.3125rem solid yellow; /* converted from 5px to rem */
+    border-radius: 1.25rem; /* converted from 20px to rem */
     transition: background 0.5s, transform 0.5s;
-    
 }
 
 .box:hover,
 #box2:hover {
-    background-color:white; /* Change to the desired hover background color */
-    transform: scale(1.1); /* Adjust the scale factor for the zoom-in effect on hover */
+    background-color: white;
+    transform: scale(1.1);
 }
 
 button{
-    padding: 5px;
-    border: 3px solid pink;
-    border-radius: 5px;
+    padding:0.5rem;
+    border: 0.2rem solid pink;
+    border-radius: 1.5rem;
     background-color:#ff106e;
     color:white;
-    margin-left:88px;
-    margin-top: 10px;
+    margin-left:6rem;
+    margin-top: 1rem;
 }
 
 #btn1{
-    padding: 5px;
-    border: 3px solid pink;
-    border-radius: 5px;
+    padding: 0.5rem;
+    border: 0.2rem solid pink;
+    border-radius: 1.1rem;
     background-color:#ff106e;
     color:white;
-    margin-left:93px;
-    margin-top: 10px;
+    margin-left:5.8rem;
 }
 
-#btn{
-    margin-left: 117px;
-    padding: 9px;
+
+#btn2{
+    padding: 0.5rem;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+    border: 0.2rem solid pink;
+    border-radius: 1.1rem;
+    background-color:#ff106e;
+    color:white;
+    margin-left:7.4rem;
+}
+#btn3{
+    padding: 0.5rem;
+    border: 0.2rem solid pink;
+    border-radius: 1.1rem;
+    background-color:#ff106e;
+    color:white;
+    margin-left:5.3rem;
 }
 
-h4{
+
+#btn {
+    margin-left: 7.3125rem; /* converted from 117px to rem */
+    padding: 0.5625rem; /* converted from 9px to rem */
+}
+
+h4 {
     color: black;
     text-align: center;
-    margin-top: 6px;
-    font-size: 20px;
+    margin-top: 0.375rem; /* converted from 6px to rem */
+    font-size: 1.25rem; /* converted from 20px to rem */
 }
 
-/* footer part */
-
-
+/* Footer part */
 footer{
     width:100%;
-    height:50px;
-    margin-top: 30px;
-    box-shadow: 0 0 10px rgb(236, 250, 39);
+    height:3rem;
+    margin-top: 3rem;
+    box-shadow: 0 0 1rem rgb(236, 250, 39);
 }
 
 #p1{
-    font-size: 16px;
-    padding-top: 20px;
+    font-size: 1rem;
+    padding-top: 1rem;
     color:white;
     /* padding-left: 500px; */
     text-align: center;
 
 }
 
-/* Responsive website */
-
-@media (max-width:700px) {
-    #logo{
-        width: 80px;
-        height: 80px;
-        margin-right: 0;
-        margin-top: 10px;
-    }
-    .menu-toggle {
-        display: block;
-    }
-
-    .nav-links {
-        display: none;
-        flex-direction: column;
+@media(max-width:1280px){
+    #combine{
+        margin:11.8rem;
+        margin-top:2.5rem;
+        margin-bottom: 3rem;
+        display: flex;
         align-items: center;
-        background-color: #333;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        padding: 10px 20px;
-        z-index: 1;
     }
-
-    .nav-links a {
-        margin-right: 0;
-        margin-bottom: 10px;
+    .box {
+        width: 16.625rem; /* converted from 250px to rem */
+        height: 24.875rem; /* converted from 350px to rem */
+        background-color: white;
+        display: inline-block;
+        border: 0.3125rem solid yellow; /* converted from 5px to rem */
+        border-radius: 1.25rem; /* converted from 20px to rem */
+        transition: background 0.5s, transform 0.5s;
     }
-
-    .nav-links.show {
-        display: flex;
-    }
-    .row{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .box{
-        width:250px;
-        height:350px;
-        margin-left:25px ;
-        margin-top: 20px;
-    }
-    #combine{
-        margin-left: 30px;
-    }
-    #box2{
-        width:250px;
-        height:350px;
-        margin-left: 26px;
-        margin-top: 20px;
-    }
-    #btn{
-        margin-left: 95px;
-    }
-    h3{
-        margin-top: 20px;
-    }
-}
-
-@media only screen   
-and (min-device-width : 700px)   
-and (max-device-width : 900px){
-    .row{
-        display: flex;
-        height:550px;
-    }
-    .box{
-        width:250px;
-        height:350px;
-        /* margin-left:25px ; */
-        margin-top: 20px;
-        margin-left: 5px;
-        margin-right: 10px;
-    }
-    #combine{
-        margin-left: 30px;
-    }
-    #box2{
-        width:250px;
-        height:360px;
-        margin-left:30px;
-        margin-right: 30px;
-        margin-top: 22px;
-    }
-    #btn{
-        margin-left: 95px;
-    }
-    h3{
-        margin-top: 20px;
-    }
-}
-
-@media only screen   
-and (min-device-width : 900px)   
-and (max-device-width : 1100px){
-    .row{
-        display: flex;
-    }
-    .box{
-        width:260px;
-        height:350px;
-        margin:55px ;
-        /* margin-top: 20px;
-        margin-right: 10px; */
-    }
-    #combine{
-        margin-left: 30px;
-    }
-    #box2{
-        width:250px;
-        height:360px;
-        margin-left:30px;
-        margin-right: 30px;
-        margin-top: 22px;
-    }
-    #btn{
-        margin-left: 95px;
-    }
-    h3{
-        margin-top: 20px;
-    }
-}
-
-@media only screen   
-and (min-device-width : 1100px)   
-and (max-device-width : 1280px){
-    .row{
-        display: flex;
-    }
-    .box{
-        width:320px;
-        height:450px;
-        margin:44px ;
-        /* margin-top: 20px;
-        margin-right: 10px; */
-    }
-    #combine{
-        margin-left: 30px;
-    }
-    #box2{
-        width:340px;
-        height:460px;
-        margin-left:30px;
-        margin-right: 30px;
-        margin-top: 22px;
+    
+    #box2 {
+        width: 19.75rem; /* converted from 300px to rem */
+        height: 28rem; /* converted from 400px to rem */
+        background-color: white;
+        display: inline-block;
+        margin-left: 3.125rem; /* converted from 50px to rem */
+        margin-right: 3.125rem; /* converted from 50px to rem */
+        border: 0.3125rem solid yellow; /* converted from 5px to rem */
+        border-radius: 1.25rem; /* converted from 20px to rem */
+        transition: background 0.5s, transform 0.5s;
     }
     #btn1{
-        margin-left: 130px;
+        padding: 0.5rem;
+        border: 0.2rem solid pink;
+        border-radius: 1.1rem;
+        background-color:#ff106e;
+        color:white;
+        margin-left:6.3rem;
     }
-    #btn{
-        margin-left: 135px;
-    }
+    
+    
     #btn2{
-        margin-left: 128px;
+        padding: 0.5rem;
+        padding-left:0.5rem;
+        padding-right:0.5rem;
+        border: 0.2rem solid pink;
+        border-radius: 1.1rem;
+        background-color:#ff106e;
+        color:white;
+        margin-left:7.9rem;
     }
-    h3{
-        margin-top: 20px;
+    #btn3{
+        padding: 0.5rem;
+        border: 0.2rem solid pink;
+        border-radius: 1.1rem;
+        background-color:#ff106e;
+        color:white;
+        margin-left:5.5rem;
     }
+    
+h3 {
+    text-align: center;
+    font-size: 2.5rem; /* converted from 40px to rem */
+    margin-bottom: 3rem;
+    margin-top: 1rem;
 }
-
-
+    
+    
+}
