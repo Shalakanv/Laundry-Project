@@ -655,38 +655,513 @@ img{
         }
     }
     @media (max-width:640px){
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .main-col-1{
+            flex-basis: 100%;
+            position: relative;
+        }
+        
+        .main-col-2{
+            flex-basis: 100%;
+        }
+        .display{
+            width: 30rem;
+            height: 30rem;
+            border: 0.3rem solid yellow;
+            border-radius: 50%;
+            margin-right: 7rem;
+            margin-left: 7rem;
+        }
+        h1{
+            text-align: right;
+            font-size: 3.5rem;
+            /* padding-top: 1.5rem;
+            padding-right: 3rem; */
+            text-align: center;
+            padding-left:5.5rem;
+        }
+        
+        h4{
+            text-align:right;
+            padding-right: 8rem;
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        #para1{
+            font-size: 1rem;
+            text-align: right;
+            /* padding-left:80px; */
+            margin-right: 2.5rem;
+            margin-left: 2.5rem;
+            padding-top: 1.5rem;
+            color:white;
+        }
+
+        .button1{
+            padding: 0.6rem;
+            background-color: yellow;
+            border-radius: 3rem;
+            border: 0.3rem solid yellow;
+            margin-left:17rem;
+            margin-top: 1.5rem;
+            cursor: pointer;
+            display: flex;
+        }
+        
+        
+    }   
+    }
+    @media (max-width:580px){
+        .display{
+            width: 28rem;
+            height: 28rem;
+            border: 0.3rem solid yellow;
+            border-radius: 50%;
+            margin-right: 6rem;
+            margin-left: 6rem;
+        }
+        h1{
+            text-align: right;
+            font-size: 3rem;
+            /* padding-top: 1.5rem;
+            padding-right: 3rem; */
+            text-align: center;
+            padding-left:5rem;
+        }
+        .button1{
+            padding: 0.6rem;
+            background-color: yellow;
+            border-radius: 3rem;
+            border: 0.3rem solid yellow;
+            margin-left:15.3rem;
+            margin-top: 1.5rem;
+            cursor: pointer;
+            display: flex;
+        }
+    }
+    @media (max-width:530px){
+        .display{
+            width: 27rem;
+            height: 27rem;
+            border: 0.3rem solid yellow;
+            border-radius: 50%;
+            margin-right: 6rem;
+            margin-left: 6rem;
+        }
+        h1{
+            text-align: right;
+            font-size: 3rem;
+            /* padding-top: 1.5rem;
+            padding-right: 3rem; */
+            text-align: center;
+            padding-left:4rem;
+        }
+        #para1{
+            font-size: 1rem;
+            /* text-align: right; */
+            /* padding-left:80px; */
+            margin-right: 2rem;
+            margin-left: 2.3rem;
+            /* padding-top: 1.5rem; */
+            color:white;
+        }
+        .button1{
+            padding: 0.6rem;
+            background-color: yellow;
+            border-radius: 3rem;
+            border: 0.3rem solid yellow;
+            margin-left:14rem;
+            margin-top: 1.5rem;
+            cursor: pointer;
+            display: flex;
+        }
+    }
+    @media (max-width:520px){
+        .display{
+            width: 27rem;
+            height: 27rem;
+            border: 0.3rem solid yellow;
+            border-radius: 50%;
+            margin-right: 5rem;
+            margin-left: 5rem;
+        }
+        h1{
+            text-align: right;
+            font-size: 2.8rem;
+            /* padding-top: 1.5rem;
+            padding-right: 3rem; */
+            text-align: center;
+            padding-left:4rem;
+        }
+        #para1{
+            font-size: 0.9rem;
+            text-align: right;
+            /* padding-left:80px; */
+            margin-right: 2.3rem;
+            margin-left: 2.3rem;
+            padding-top: 1.5rem;
+            color:white;
+        }
+        h4{
+            text-align:right;
+            padding-right: 5.3rem;
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+        
+        .button1{
+            padding: 0.6rem;
+            background-color: yellow;
+            border-radius: 3rem;
+            border: 0.3rem solid yellow;
+            margin-left:13rem;
+            margin-top: 1.5rem;
+            cursor: pointer;
+            display: flex;
+        }
+    }
+    @media (max-width:490px){
+        .display{
+            width: 25rem;
+            height: 25rem;
+            border: 0.3rem solid yellow;
+            border-radius: 50%;
+            margin-right: 3rem;
+            margin-left: 5rem;
+        }
+        h1{
+            text-align: right;
+            font-size: 2.8rem;
+            /* padding-top: 1.5rem;
+            padding-right: 3rem; */
+            text-align: center;
+            padding-left:4rem;
+        }
+        #para1{
+            font-size: 0.9rem;
+            text-align: right;
+            /* padding-left:80px; */
+            margin-right: 2rem;
+            margin-left: 2.8rem;
+            padding-top: 1.5rem;
+            color:white;
+        }
+        h4{
+            text-align:right;
+            padding-right: 6rem;
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+        .button1{
+            padding: 0.6rem;
+            background-color: yellow;
+            border-radius: 3rem;
+            border: 0.3rem solid yellow;
+            margin-left:12.8rem;
+            margin-top: 1.5rem;
+            cursor: pointer;
+            display: flex;
+        }
+    }
+    @media (max-width:470px){
+        .display{
+            width: 25rem;
+            height: 25rem;
+            border: 0.3rem solid yellow;
+            border-radius: 50%;
+            margin-right: 5rem;
+            margin-left: 5rem;
+        }
+        #para1{
+            font-size: 0.9rem;
+            text-align: right;
+            /* padding-left:80px; */
+            margin-right: 1.6rem;
+            margin-left: 2.8rem;
+            padding-top: 1.5rem;
+            color:white;
+        }
+    }
+    @media (max-width:450px){
+        .display{
+            width: 23rem;
+            height: 23rem;
+            border: 0.3rem solid yellow;
+            border-radius: 50%;
+            margin-right: 7rem;
+            margin-left: 5.2rem;
+        }
+        h4{
+            text-align:right;
+            padding-right: 3.3rem;
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+    }
+    @media (max-width:430px){
         .display{
             width: 22rem;
             height: 22rem;
             border: 0.3rem solid yellow;
             border-radius: 50%;
-            overflow: hidden;
+            margin-right: 7.8rem;
+            margin-left: 5.2rem;
         }
-        h1{
+        #para1{
+            font-size: 0.9rem;
             text-align: right;
-            font-size: 2.3rem;
+            /* padding-left:80px; */
+            margin-right: 2rem;
+            margin-left: 2.8rem;
             padding-top: 1.5rem;
-            padding-right: 2.8rem;
-            text-align: right;
-            white-space: nowrap;
+            color:white;
         }
         h4{
             text-align:right;
-            padding-right: 2.8rem;
-            font-size: 1rem;
-            margin-top: 2rem;
+            padding-right: 4rem;
+            font-size: 1.5rem;
+            margin-top: 1rem;
         }
-        .row{
+        .button1{
+            padding: 0.6rem;
+            background-color: yellow;
+            border-radius: 3rem;
+            border: 0.3rem solid yellow;
+            margin-left:10.5rem;
+            margin-top: 1.5rem;
+            cursor: pointer;
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            height:100%;
-        }
-        .main-col-1
-        .main-col-2{
-            flex-basis: 100%;
         }
     }
-    
-}   
+    @media (max-width:425px){
+        .display{
+            width: 22rem;
+            height: 22rem;
+            border: 0.3rem solid yellow;
+            border-radius: 50%;
+            margin-right: 8rem;
+            margin-left: 4rem;
+        }
+        #para1{
+            font-size: 0.9rem;
+            text-align: right;
+            /* padding-left:80px; */
+            margin-right: 2rem;
+            margin-left: 3rem;
+            padding-top: 1.5rem;
+            color:white;
+        }
+        h4{
+            text-align:right;
+            padding-right: 4rem;
+            font-size: 1.3rem;
+            margin-top: 1rem;
+        }
+        .button1{
+            padding: 0.6rem;
+            background-color: yellow;
+            border-radius: 3rem;
+            border: 0.3rem solid yellow;
+            margin-left:9.5rem;
+            margin-top: 1.5rem;
+            cursor: pointer;
+            display: flex;
+        }
+        h1{
+            text-align: right;
+            font-size: 2.5rem;
+            white-space: nowrap;
+            /* padding-top: 1.5rem;
+            padding-right: 3rem; */
+            text-align: center;
+            padding-left:4rem;
+        }
+    }
+    @media (max-width:400px){
+        .display{
+            width: 22rem;
+            height: 22rem;
+            border: 0.3rem solid yellow;
+            border-radius: 50%;
+            margin-right: 8rem;
+            margin-left: 3.3rem;
+        }
+        #para1{
+            font-size: 0.9rem;
+            /* text-align: right; */
+            /* padding-left:80px; */
+            /* margin-right: 2rem; */
+            margin-left: 3rem;
+            padding-top: 1.5rem;
+            color:white;
+        }
+        h4{
+            text-align:right;
+            padding-right: 4rem;
+            font-size: 1.3rem;
+            margin-top: 1rem;
+        }
+        .button1{
+            padding: 0.6rem;
+            background-color: yellow;
+            border-radius: 3rem;
+            border: 0.3rem solid yellow;
+            margin-left:9.5rem;
+            margin-top: 1.5rem;
+            cursor: pointer;
+            display: flex;
+        }
+        h1{
+            text-align: right;
+            font-size: 2.5rem;
+            white-space: nowrap;
+            /* padding-top: 1.5rem;
+            padding-right: 3rem; */
+            text-align: center;
+            padding-left:4rem;
+        }
+    }
+    @media (max-width:378px){
+        .display{
+            width: 20rem;
+            height: 20rem;
+            border: 0.3rem solid yellow;
+            border-radius: 50%;
+            margin-right: 8rem;
+            margin-left: 3.3rem;
+        }
+        #para1{
+            font-size: 0.9rem;
+            /* text-align: right; */
+            /* padding-left:80px; */
+            /* margin-right: 2rem; */
+            margin-left: 2.5rem;
+            padding-top: 1.5rem;
+            color:white;
+        }
+        h4{
+            text-align:right;
+            padding-right: 4rem;
+            font-size: 1.3rem;
+            margin-top: 1rem;
+        }
+        .button1{
+            padding: 0.6rem;
+            background-color: yellow;
+            border-radius: 3rem;
+            border: 0.3rem solid yellow;
+            margin-left:9.5rem;
+            margin-top: 1.5rem;
+            cursor: pointer;
+            display: flex;
+        }
+        h1{
+            /* text-align: right; */
+            font-size: 2.5rem;
+            white-space: nowrap;
+            /* padding-top: 1.5rem;
+            padding-right: 3rem; */
+            text-align: center;
+            padding-left:3rem;
+        }
+        footer{
+            width:100%;
+            height:3.5rem;
+            margin-top: 3rem;
+            box-shadow: 0 0 1rem rgb(236, 250, 39);
+        }
+    }
+    @media (max-width:350px){
+        .display{
+            width: 20rem;
+            height: 20rem;
+            border: 0.3rem solid yellow;
+            border-radius: 50%;
+            margin-right: 8rem;
+            margin-left: 2.9rem;
+        }
+        #para1{
+            font-size: 0.9rem;
+            /* text-align: right; */
+            /* padding-left:80px; */
+            /* margin-right: 2rem; */
+            margin-left: 2.5rem;
+            padding-top: 1.5rem;
+            color:white;
+        }
+        h4{
+            text-align:right;
+            padding-right: 4rem;
+            font-size: 1.3rem;
+            margin-top: 1rem;
+        }
+        .button1{
+            padding: 0.6rem;
+            background-color: yellow;
+            border-radius: 3rem;
+            border: 0.3rem solid yellow;
+            margin-left:8.5rem;
+            margin-top: 1.5rem;
+            cursor: pointer;
+            display: flex;
+        }
+        h1{
+            /* text-align: right; */
+            font-size: 2.5rem;
+            white-space: nowrap;
+            /* padding-top: 1.5rem;
+            padding-right: 3rem; */
+            text-align: center;
+            padding-left:2.5rem;
+        }
+    }
+    @media (max-width:340px){
+        .display{
+            width: 18rem;
+            height: 18rem;
+            border: 0.3rem solid yellow;
+            border-radius: 50%;
+            margin-right: 8rem;
+            margin-left: 3.1rem;
+        }
+        #para1{
+            font-size: 0.9rem;
+            /* text-align: right; */
+            /* padding-left:80px; */
+            /* margin-right: 2rem; */
+            margin-left: 2.5rem;
+            padding-top: 1.5rem;
+            color:white;
+        }
+        h4{
+            text-align:right;
+            padding-right: 4rem;
+            font-size: 1.3rem;
+            margin-top: 1rem;
+        }
+        .button1{
+            padding: 0.6rem;
+            background-color: yellow;
+            border-radius: 3rem;
+            border: 0.3rem solid yellow;
+            margin-left:8.5rem;
+            margin-top: 1.3rem;
+            cursor: pointer;
+            display: flex;
+        }
+        h1{
+            /* text-align: right; */
+            font-size: 2.5rem;
+            white-space: nowrap;
+            /* padding-top: 1.5rem;
+            padding-right: 3rem; */
+            text-align: center;
+            padding-left:2rem;
+        }
+    }
 }
