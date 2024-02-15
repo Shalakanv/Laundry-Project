@@ -1,257 +1,239 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin:0;
+    padding:0;
     box-sizing: border-box;
-    font-family: 'Century Expanded', sans-serif;
+    font-family:Century expanded;
 }
 
-body {
-    background: url('images/bg2.png');
+body{
+    background:url('images/bg2.png');
     background-size: cover;
-    margin: 0;
-    padding: 0;
 }
 
-/* Navbar */
+/* *******************Navbar******************* */
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1.25rem; /* converted from 20px to rem */
-}
-
-#logo {
-    width: 6.25rem; /* converted from 100px to rem */
-    height: 6.25rem; /* converted from 100px to rem */
-    border: 0.125rem solid yellow; /* converted from 2px to rem */
+    padding: 0 1.5em;
+  }
+  
+  #logo {
+    width:6rem;
+    height: 6rem;
+    border: 0.23rem solid yellow;
     border-radius: 15%;
-}
-
-.nav-links {
+  }
+  
+  .nav-links {
     display: flex;
-}
-
-.nav-links a {
+  }
+  
+  .nav-links a {
     text-decoration: none;
     color: white;
-    padding: 0.625rem; /* converted from 10px to rem */
-    font-size: 1.45rem; /* converted from 20px to rem */
-    margin-right: 1.25rem; /* converted from 20px to rem */
+    padding: 1rem;
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
     position: relative;
-}
-
-.nav-links a::after {
+  }
+  
+  .nav-links a::after {
     content: '';
     width: 0;
-    height: 0.1875rem; /* converted from 3px to rem */
+    height: 0.2rem;
     background: yellow;
     position: absolute;
     left: 0;
-    bottom: -0.03125rem; /* converted from -0px to rem */
+    bottom: -0rem;
     transition: 0.5s;
-}
-
-.nav-links a:hover::after {
+  }
+  
+  .nav-links a:hover::after {
     width: 100%;
-}
-
-.menu-toggle {
+  }
+  
+  .menu-toggle {
     display: none;
     cursor: pointer;
     color: white;
-    font-size: 1.25rem; /* converted from 20px to rem */
+    /* font-size: 2rem; */
+  }
+
+
+/*******************Pricing part************/
+
+#price{
+    /* padding-top: 10px; */
+    color:white;
 }
 
-/* Pricing part */
-#price {
-    color: white;
-}
-
-.row {
+.row{
     display: flex;
-    height:83vh;
+    height:90vh;
 }
 
-.price-col-1 {
+.price-col-1{
     flex-basis: 100%;
 }
 
-h3 {
+h3{
     text-align: center;
-    font-size: 2.5rem; /* converted from 40px to rem */
-    margin-bottom: 3rem;
+    font-size: 2.7rem;
 }
 
-span {
+span{
     color: yellow;
 }
 
-#combine {
-    margin-left: 15.3125rem; /* converted from 245px to rem */
-    margin-top: 1.25rem; /* converted from 20px to rem */
+
+#combine{
+    margin-left: 14rem;
+    margin-top: 2rem;
 }
 
-.box {
-    width: 15.625rem; /* converted from 250px to rem */
-    height: 21.875rem; /* converted from 350px to rem */
+.box{
+    width:16rem;
+    height:22rem;
     background-color: white;
-    display: inline-block;
-    border: 0.3125rem solid yellow; /* converted from 5px to rem */
-    border-radius: 1.25rem; /* converted from 20px to rem */
+    display:inline-block;
+    border: 0.3rem solid yellow;
+    border-radius: 1rem;
     transition: background 0.5s, transform 0.5s;
+    
 }
 
-#box2 {
-    width: 18.75rem; /* converted from 300px to rem */
-    height: 25rem; /* converted from 400px to rem */
+#box2{
+    width:18rem;
+    height:24rem;
     background-color: white;
-    display: inline-block;
-    margin-left: 3.125rem; /* converted from 50px to rem */
-    margin-right: 3.125rem; /* converted from 50px to rem */
-    border: 0.3125rem solid yellow; /* converted from 5px to rem */
-    border-radius: 1.25rem; /* converted from 20px to rem */
+    display:inline-block;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border: 0.3rem solid yellow ;
+    border-radius: 1rem;
     transition: background 0.5s, transform 0.5s;
+    
 }
 
 .box:hover,
 #box2:hover {
-    background-color: white;
-    transform: scale(1.1);
+    background-color:white; /* Change to the desired hover background color */
+    transform: scale(1.1); /* Adjust the scale factor for the zoom-in effect on hover */
 }
 
 button{
-    padding:0.5rem;
-    border: 0.2rem solid pink;
-    border-radius: 1.5rem;
+    padding: 5px;
+    border: 3px solid pink;
+    border-radius: 5px;
     background-color:#ff106e;
     color:white;
-    margin-left:6rem;
-    margin-top: 1rem;
+    margin-left:88px;
+    margin-top: 10px;
 }
 
 #btn1{
     padding: 0.5rem;
     border: 0.2rem solid pink;
-    border-radius: 1.1rem;
+    border-radius: 0.5rem;
     background-color:#ff106e;
     color:white;
-    margin-left:5.8rem;
+    margin-left:6rem;
+    margin-top: 1rem;
 }
-
-
 #btn2{
     padding: 0.5rem;
-    padding-left:0.5rem;
-    padding-right:0.5rem;
     border: 0.2rem solid pink;
-    border-radius: 1.1rem;
+    border-radius: 0.5rem;
     background-color:#ff106e;
     color:white;
-    margin-left:7.4rem;
+    margin-left:7.2rem;
+    margin-top: 1rem;
 }
 #btn3{
     padding: 0.5rem;
     border: 0.2rem solid pink;
-    border-radius: 1.1rem;
+    border-radius: 0.5rem;
     background-color:#ff106e;
     color:white;
-    margin-left:5.3rem;
+    margin-left:5.5rem;
+    margin-top: 1rem;
 }
 
 
-#btn {
-    margin-left: 7.3125rem; /* converted from 117px to rem */
-    padding: 0.5625rem; /* converted from 9px to rem */
-}
-
-h4 {
+h4{
     color: black;
     text-align: center;
-    margin-top: 0.375rem; /* converted from 6px to rem */
-    font-size: 1.25rem; /* converted from 20px to rem */
+    margin-top:0.5rem;
+    font-size: 1.5rem;
 }
 
-/* Footer part */
+/* footer part */
+
+
 footer{
     width:100%;
     height:3rem;
     margin-top: 3rem;
     box-shadow: 0 0 1rem rgb(236, 250, 39);
-}
-
-#p1{
+  }
+  
+  #p1{
     font-size: 1rem;
     padding-top: 1rem;
     color:white;
     /* padding-left: 500px; */
     text-align: center;
+  
+  }
 
-}
+/* Responsive website */
 
-@media(max-width:1280px){
+@media (max-width:1280px){
     #combine{
-        margin:11.8rem;
-        margin-top:2.5rem;
-        margin-bottom: 3rem;
-        display: flex;
-        align-items: center;
+        margin-left: 10.8rem;
+        margin-top: 2rem;
     }
-    .box {
-        width: 16.625rem; /* converted from 250px to rem */
-        height: 24.875rem; /* converted from 350px to rem */
+    #box2{
+        width:18rem;
+        height:24rem;
         background-color: white;
-        display: inline-block;
-        border: 0.3125rem solid yellow; /* converted from 5px to rem */
-        border-radius: 1.25rem; /* converted from 20px to rem */
+        display:inline-block;
+        margin-left: 2.8rem;
+        margin-right: 2.8rem;
+        border: 0.3rem solid yellow ;
+        border-radius: 1rem;
         transition: background 0.5s, transform 0.5s;
+        
     }
-    
-    #box2 {
-        width: 19.75rem; /* converted from 300px to rem */
-        height: 28rem; /* converted from 400px to rem */
-        background-color: white;
-        display: inline-block;
-        margin-left: 3.125rem; /* converted from 50px to rem */
-        margin-right: 3.125rem; /* converted from 50px to rem */
-        border: 0.3125rem solid yellow; /* converted from 5px to rem */
-        border-radius: 1.25rem; /* converted from 20px to rem */
-        transition: background 0.5s, transform 0.5s;
+    @media (max-width:1225px){
+        #combine{
+            margin-left: 10rem;
+            margin-top: 2rem;
+        }
+        #box2{
+            width:18rem;
+            height:24rem;
+            background-color: white;
+            display:inline-block;
+            margin-left: 2.8rem;
+            margin-right: 2.8rem;
+            border: 0.3rem solid yellow ;
+            border-radius: 1rem;
+            transition: background 0.5s, transform 0.5s;
+            
+        }
+        .row{
+            display: flex;
+            height:80vh;
+        }
     }
-    #btn1{
-        padding: 0.5rem;
-        border: 0.2rem solid pink;
-        border-radius: 1.1rem;
-        background-color:#ff106e;
-        color:white;
-        margin-left:6.3rem;
+    @media (max-width:1200px){
+        #combine{
+            margin-left: 9.8rem;
+            margin-top: 2rem;
+        }
+        
     }
-    
-    
-    #btn2{
-        padding: 0.5rem;
-        padding-left:0.5rem;
-        padding-right:0.5rem;
-        border: 0.2rem solid pink;
-        border-radius: 1.1rem;
-        background-color:#ff106e;
-        color:white;
-        margin-left:7.9rem;
-    }
-    #btn3{
-        padding: 0.5rem;
-        border: 0.2rem solid pink;
-        border-radius: 1.1rem;
-        background-color:#ff106e;
-        color:white;
-        margin-left:5.5rem;
-    }
-    
-h3 {
-    text-align: center;
-    font-size: 2.5rem; /* converted from 40px to rem */
-    margin-bottom: 3rem;
-    margin-top: 1rem;
-}
-    
-    
 }
