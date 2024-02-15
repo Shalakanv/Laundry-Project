@@ -577,9 +577,11 @@ img{
             display: none;
             flex-direction: column;
             align-items: center;
-            background-color: #333;
+            background-color: #076baa;
+            border-radius:2rem;
+            border:0.2rem solid yellow;
             position: absolute;
-            top: 60px;
+            top: 3.7rem;
             left: 0;
             width: 100%;
             padding: 10px 20px;
