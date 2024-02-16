@@ -69,10 +69,7 @@ body{
     color:white;
 }
 
-.row{
-    display: flex;
-    height:90vh;
-}
+
 
 .price-col-1{
     flex-basis: 100%;
@@ -87,13 +84,49 @@ span{
     color: yellow;
 }
 
-
-#combine{
+/* #combine{
     margin-left: 14rem;
+    margin-top: 2rem;
+} */
+
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1.1fr 1fr;
+    grid-gap:3rem;
+    grid-auto-rows:minmax(25rem,auto);
+    grid-auto-columns:minmax(3rem,auto);
+    margin-left: 10rem;
+    margin-right: 10rem;
     margin-top: 2rem;
 }
 
-.box{
+.items{
+    background-color: white;
+    border:0.5rem solid yellow;
+    border-radius: 3rem;
+}
+
+/* .btn{
+    padding: 0.5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    background-color: #ff106e;
+    color:white;
+    border: 0.5rem solid white;
+    border-radius: 1rem;
+}
+
+#btn1{
+    padding:0.7rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    background-color: #ff106e;
+    color:white;
+    border: 0.5rem solid white;
+    border-radius: 1rem;
+} */
+
+/* .box{
     width:16rem;
     height:22rem;
     background-color: white;
@@ -114,16 +147,16 @@ span{
     border: 0.3rem solid yellow ;
     border-radius: 1rem;
     transition: background 0.5s, transform 0.5s;
-    
-}
+} */
 
-.box:hover,
+
+/* .box:hover,
 #box2:hover {
     background-color:white; /* Change to the desired hover background color */
-    transform: scale(1.1); /* Adjust the scale factor for the zoom-in effect on hover */
-}
+    /*transform: scale(1.1); Adjust the scale factor for the zoom-in effect on hover*/
 
-button{
+
+/* button{
     padding: 5px;
     border: 3px solid pink;
     border-radius: 5px;
@@ -131,7 +164,7 @@ button{
     color:white;
     margin-left:88px;
     margin-top: 10px;
-}
+} 
 
 #btn1{
     padding: 0.5rem;
@@ -167,7 +200,7 @@ h4{
     text-align: center;
     margin-top:0.5rem;
     font-size: 1.5rem;
-}
+} */
 
 /* footer part */
 
@@ -190,50 +223,3 @@ footer{
 
 /* Responsive website */
 
-@media (max-width:1280px){
-    #combine{
-        margin-left: 10.8rem;
-        margin-top: 2rem;
-    }
-    #box2{
-        width:18rem;
-        height:24rem;
-        background-color: white;
-        display:inline-block;
-        margin-left: 2.8rem;
-        margin-right: 2.8rem;
-        border: 0.3rem solid yellow ;
-        border-radius: 1rem;
-        transition: background 0.5s, transform 0.5s;
-        
-    }
-    @media (max-width:1225px){
-        #combine{
-            margin-left: 10rem;
-            margin-top: 2rem;
-        }
-        #box2{
-            width:18rem;
-            height:24rem;
-            background-color: white;
-            display:inline-block;
-            margin-left: 2.8rem;
-            margin-right: 2.8rem;
-            border: 0.3rem solid yellow ;
-            border-radius: 1rem;
-            transition: background 0.5s, transform 0.5s;
-            
-        }
-        .row{
-            display: flex;
-            height:80vh;
-        }
-    }
-    @media (max-width:1200px){
-        #combine{
-            margin-left: 9.8rem;
-            margin-top: 2rem;
-        }
-        
-    }
-}
