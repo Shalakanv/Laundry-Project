@@ -395,7 +395,43 @@ img{
 
 /* Responsive website */
 
-@media (max-width:1280px){
+@media (max-width:1330px){
+    .display{
+        width: 40rem;
+        height: 40rem;
+        border: 0.3rem solid yellow;
+        border-radius: 50%;
+        transform: translateY(-40%) translateX(-25%) translateY(45%) translateX(15%); /* Hide left and bottom parts */
+        overflow: hidden;
+    }
+    h1{
+        text-align: right;
+        font-size: 4rem;
+        padding-top: 2rem;
+        margin-top: 4.2rem;
+        padding-right: 3rem;
+        text-align: right;
+    }
+    #logo {
+        width:6.5rem;
+        height: 6.5rem;
+        border: 0.23rem solid yellow;
+        border-radius: 15%;
+        margin-top: 0.2rem;
+    }
+    .button1{
+        padding: 0.6rem;
+        background-color: yellow;
+        border-radius: 3rem;
+        border: 0.3rem solid yellow;
+        margin-left:32rem;
+        margin-top: 1.5rem;
+        cursor: pointer;
+        display: flex;
+        
+    }
+
+    @media (max-width:1280px){
     .button1{
         padding: 0.6rem;
         background-color: yellow;
@@ -1166,4 +1202,5 @@ img{
             padding-left:2rem;
         }
     }
+}
 }

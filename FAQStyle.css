@@ -207,7 +207,16 @@ footer{
   
   }
 
-
+@media (max-width:1330px){
+    #FAQ{
+        padding-top:8rem;
+        color:white;
+    }
+    .row{
+        display: flex;
+        padding-top:1.3rem;
+        height:88vh;
+    }
 @media (max-width:1280px) {
     @media (max-width:1150px) {
         #img1{
@@ -560,4 +569,5 @@ footer{
         }
     }
     
+}
 }
