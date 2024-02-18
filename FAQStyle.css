@@ -419,52 +419,57 @@ footer{
             margin-left:4rem;
         }
     }
-    @media (max-width:640px){
-        #FAQ{
-            padding-top:2rem;
-            color:white;
+    @media (max-width:640px) {
+        #FAQ {
+            padding-top: 2rem;
+            color: white;
         }
         
-        .row{
+        .row {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            padding-top:1.3rem;
-            height:170vh;
+            padding-top: 1.3rem;
+            overflow-x: hidden; /* Hide horizontal overflow */
         }
         
         .FAQ-col-1{
-            flex-basis: 100%;
+            flex-basis: 50%;
         }
-        .FAQ-col-2{
+        .FAQ-col-2 {
             flex-basis: 100%;
-            margin-top: 1.3rem;
+            margin: 1.3rem 0; /* Adjust margin for better spacing */
             box-shadow: 0 0 1rem rgb(236, 250, 39);
-            margin:1.3rem 5rem;
-            padding-left: 1.8rem;
-            overflow-y: auto; /* Add this property for a scrollbar */
-            /* max-height: 600px;  */
-            height: 30rem; /* Set a fixed height for the container */
-            overflow-y: auto; /* Enable vertical scrollbar */
+            padding: 1.8rem; /* Adjust padding for better spacing */
+            overflow-y: auto;
+            max-height: calc(100vh - 100px); /* Adjust max-height to fit viewport */
             border: 0.2rem solid #ccc;
-            
         }
-        #img1{
-            width:20rem;
-            height:20rem;
-            background-size: cover;
-            margin-top:1.8rem;
-            margin-left: 10rem;
-            margin-right: 10rem;
+        
+        #img1 {
+            width: 20rem; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            margin: 1.8rem auto; /* Center horizontally */
             border-radius: 2rem;
             border: 0.4rem solid yellow;
         }
-        h3{
-            font-size:1.8rem;
-            margin-left:11rem;
-            margin-right: 11rem;
+        
+        h3 {
+            font-size: 1.8rem;
+            text-align: center; /* Center text */
+            margin: 0; /* Remove default margin */
+        }
+        
+        footer {
+            width: 100%;
+            height: 3rem;
+            margin-top: 3rem;
+            box-shadow: 0 0 1rem rgb(236, 250, 39);
         }
     }
+    
+    
     @media (max-width:520px){
         #img1{
             width:19rem;
