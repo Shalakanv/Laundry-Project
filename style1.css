@@ -395,6 +395,8 @@ img{
 
 /* Responsive website */
 
+
+
 @media (max-width:1330px){
     .display{
         width: 40rem;
@@ -1202,5 +1204,6 @@ img{
             padding-left:2rem;
         }
     }
+}
 }
 }
